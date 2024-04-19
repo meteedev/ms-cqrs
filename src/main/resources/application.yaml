@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/productdb
+    username: root
+    password: password
+
+app:
+  write:
+    enabled: false
